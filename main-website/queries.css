@@ -1,0 +1,241 @@
+
+
+
+@media screen and (max-width: 1000px ) {
+    
+    .header {
+        height: 90vh;
+    }
+    .main-header {margin-right: 20%;}
+  
+    .main-header-p .TASK-h1 {
+        margin: 0;
+        font-size: 230%;
+    }
+    
+}
+
+@media screen and (max-width : 920px ) {
+    
+    .header {
+        height:85vh;
+    }
+    .logo a{
+        font-size: 100%;
+        padding: 10px 0;
+    }
+    .logo i {
+        font-size: 130%;
+    }
+    
+}
+
+@media screen and (max-width: 850px ) {
+    
+    .header {
+        height:75vh;
+    }
+    
+    .h1 {font-size: 300%;}
+    
+    .about {
+        padding: 0 50px;
+    }
+    .flex-items > div {
+        padding: 50px 25px;
+    }
+
+    .footer-nav {
+        margin-left: 3%;
+        margin-right: 3%;
+    
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    
+    .header {
+        height:66vh;
+    }
+    .main-header {margin-right: 15%;}
+  
+    .main-header-p .TASK-h1 {
+        margin: 0;
+        font-size: 180%;
+    }
+   
+    .sign-in-queries a{
+        display: none;
+    }
+    .navbar {
+        
+        padding: 10px 20px;
+    }
+    .h1 {font-size: 200%;}
+    .flex-items  {
+        flex-direction: column;
+    }
+    .flex-items p {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .border-b {
+        border-bottom: 2px saddlebrown solid ;
+    }
+    .last-border-b {
+        border-bottom: none;
+    }
+    .solutions {
+        margin-bottom: 20px;
+    }
+    .flex-row-index {
+        flex-direction: column;
+    }
+    .flex-reverse .row {
+        flex-direction: column;
+    }
+    .column-2 h2 {
+        font-size: 20px;
+        font-weight: 700;
+        word-spacing: 2px;
+        margin-bottom: 10px;
+    
+    }
+    .footer-nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 20px;
+        margin-left: 10%;
+        margin-right: 8%;
+    
+    }
+}
+@media screen and (max-width : 650px ) {
+    
+    .header {
+        height:62vh;
+    }
+  
+    .header-on-line h1 {
+        font-size: 200%;
+        margin-bottom: 10px;
+    }
+    .section .column img {
+        height: 500px;
+        width: 100%;
+    }
+    .see-more-flex-coulmn {
+        flex-direction: column;
+    }
+    .btn-1,.btn-2 {
+       
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width : 600px ) {
+    
+    .header {
+        height:90vh;
+        background-position-x: 60px;
+    }
+    .main-header {margin-right: 0;}
+  
+    .main-header-p .TASK-h1 {
+        margin: 0;
+        font-size: 160%;
+    }
+    
+    .pay-flex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pay-group {
+        margin-left: 0;
+        width: 80%;
+        margin-bottom: 50px;
+      
+    }
+    
+   
+
+}
+@media screen and (max-width : 510px ) {
+    .img {
+        width: 100%;
+        height: 400px;
+    }
+    .flex-items p {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .footer-nav {
+        padding: 20px 0;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    .ul-nav a {
+        margin: 10px 20px;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 5px 10px;
+    }
+    .footer-icons i {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    .navbar {
+        font-size: 70%;
+        padding: 10px 0;
+    }
+    .logo a{
+        padding: 0;
+    }
+    .logo i {
+        font-size: 130%;
+        padding-left: 10px;
+        
+    }
+    .h1 {
+        font-size: 150%;
+
+    }
+    
+    .fa-home {
+        margin-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width : 440px) {
+    .sgin-header h1 {
+        font-size: 110%;
+    }
+    .buttom-group h5 {
+        margin-left: 10px;
+        font-size: 50%;
+    }
+    .buttom-group a {
+        margin-left: 5px;
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .header-on-line h1 {
+        font-size: 130%;
+        margin-bottom: 10px;
+    }
+    .header-on-line h3 {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .section .column img {
+        height: 350px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------------------------------------------------------*/
+/* body */
+/*----------------------------------------------------------------------------*/
+body {
+    background-color:#fff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    width: 100%;
+}
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+    background: saddlebrown;
+}
+.header-gym  ul, footer  ul{
+    list-style: none;
+}
+
+.header-gym a, footer a {
+    color:#fff;
+    text-decoration: none; 
+}
+
+/*----------------------------------------------------------------------------*/
+/* header */
+/*----------------------------------------------------------------------------*/
+.header-gym {
+    background: rgb(34, 32, 32);
+    height: 70%;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 40px;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+.navbar-link a {
+    transition: color 0.5s, border-bottom 0.1s;
+}
+.navbar-link a:active, .navbar-link a:hover {
+    color: saddlebrown;
+    border-bottom: 1px #fff solid; 
+}
+.logo {
+    font-family: 'Zilla Slab', serif;
+    color: #fff;
+}
+.logo a:hover {
+    color: #fff;
+}
+.logo .fa-heartbeat {
+    transition: color 0.5s;
+}
+.logo .fa-heartbeat:hover {
+    color: red;
+}
+.logo a{
+    font-size: 150%;
+    padding: 5px 0;
+    text-shadow: 5px 5px 10px saddlebrown;
+}
+.navbar-link .main-link:link, .navbar-link .main-link:visited {
+    border-bottom: 2px saddlebrown solid; 
+}
+/*----------------------------------------------------------------------------*/
+/* section-gym show case */
+/*----------------------------------------------------------------------------*/
+.human-muscles-section {
+    width: 100%;
+}
+.human-muscles-section header {
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.human-muscles-section header h1 {
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+.human-muscles-section  header h3::after {
+    margin: auto;
+    content: " ";  
+    display: flex;
+    background: saddlebrown;
+    height: 3px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* section-gym show case -> human muscle*/
+/*----------------------------------------------------------------------------*/
+#images {
+    margin: auto;
+    width: 599px;
+    height: 507px;
+}
+#images-less-603 {
+    display: none;
+}
+.muscles-container {
+    margin: 2% 2% 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+}
+.muscles-flex {
+    margin: 0 3%;
+    padding: 0 20px;
+    width: 60%;
+}
+.mscles-f {
+    width: 40%;
+}
+.Muscles-Exercise {
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+.Muscles-Exercise h1::after {
+    margin: auto;
+    content: " ";  
+    display: flex;
+    background: saddlebrown;
+    height: 3px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/*----------------------------------------------------------------------------*/
+/* secation workout parts */
+/*----------------------------------------------------------------------------*/
+.Workout-section {
+    margin: 5% 0 8% 0;
+}
+.workout-parts {
+    margin: 1% 2%;
+    border: 4px rgb(92, 49, 18) solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px rgb(68, 67, 67);
+    padding: 1%;   
+}
+.workout-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px 0;
+}
+.workout-flex img{
+    width: 160px;
+    height: 130px;
+}
+#Trapezius-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px 0 20px 2%;
+
+}
+.brown-line {
+
+    margin: auto;
+    content: " ";  
+    display: flex;
+    background: rgb(92, 49, 18);
+    height: 3px;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 0 4px rgb(68, 67, 67);
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/* footer */
+/*----------------------------------------------------------------------------*/
+
+.footer-main{
+    background:  rgb(34, 32, 32);
+}
+.footer-nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin-left: 10%;
+    margin-right: 8%;
+
+}
+.footer-nav a {
+    color: #fff;
+}
+.ul-nav {
+    display: flex;
+}
+.ul-nav a {
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 4px 10px;
+}
+
+.ul-nav a:hover {
+    border-bottom: 1px #fff solid;
+}
+.icons-footer {
+    margin: 10px;
+    padding: 5px 10px;
+}
+.icons-footer:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+.fa-facebook-f { color: rgb(16, 78, 250);}
+.fa-instagram { color: rgb(153, 43, 226);}
+.fa-twitter { color: rgb(0, 153, 255);}
+.fa-youtube { color: red;}
+.footer-main p {
+    color: #fff;
+    text-align: center;
+    padding: 0 0 10px 0;   
+}
+/*----------------------------------------------------------------------------*/
+/* Queries for small devices */
+/*----------------------------------------------------------------------------*/
+@media screen and (max-width: 950px ) {
+    .human-muscles-section header h1 {
+        font-size: 200%;
+    }
+    .muscles-container {
+        margin: 3% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .muscles-flex {
+        padding: 0;
+        width: 100%;
+    }
+    .mscles-f {
+        margin-top: 10%;
+        width: 80%;
+    } 
+       
+}
+@media screen and (max-width: 603px ) {
+    .human-muscles-section header h1,.Muscles-Exercise h1 {
+        font-size: 140%;
+    }
+    .map-hide {
+        display: none;
+    }
+    #images-less-603 {
+        display: block;
+        width: 100%;
+    }
+    #images {
+        display: none;
+    }
+    .Workout-section {
+        margin: 15% 2% 10% 2%;
+    }
+    
+    
+}
+@media screen and (max-width: 570px ) {
+    .workout-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px;
+        margin: 20px 4px;
+    }
+    .workout-flex{
+        margin: 10px 0;
+    }
+    .workout-flex img{
+        width: 180px;
+        height: 130px;
+    }
+    #Trapezius-container {
+        justify-content: center;
+    }
+      
+}
+@media screen and (max-width: 500px ) {
+
+    .human-muscles-section header h1,.Muscles-Exercise h1 {
+        font-size: 120%;
+    }
+    .human-muscles-section header h3,h2 {
+        font-size: 110%;
+    }
+    .workout-group h2 {
+        margin-left: 5%;
+    }
+     
+}

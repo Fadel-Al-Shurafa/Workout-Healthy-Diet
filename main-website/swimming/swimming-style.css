@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------------------------------------------------------*/
+/* body */
+/*----------------------------------------------------------------------------*/
+body {
+    background: rgb(240, 240, 240);
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+    background: saddlebrown;
+}
+ul{
+    list-style: none;
+}
+
+a {
+    color:#fff;
+    text-decoration: none; 
+}
+
+/*----------------------------------------------------------------------------*/
+/* header */
+/*----------------------------------------------------------------------------*/
+.header-gym {
+    background: rgb(34, 32, 32);
+    height: 70%;
+    
+    
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 40px;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+.navbar-link a {
+    transition: color 0.5s, border-bottom 0.1s;
+}
+.navbar-link a:active, .navbar-link a:hover {
+    color: saddlebrown;
+    border-bottom: 1px #fff solid; 
+}
+.logo {
+    font-family: 'Zilla Slab', serif;
+    color: #fff;
+}
+.logo a:hover {
+    color: #fff;
+}
+.logo .fa-heartbeat:hover {
+    color: red;
+
+}
+.logo .fa-heartbeat {
+    transition: color 0.5s;
+}
+.logo a{
+    text-shadow: 5px 5px 10px saddlebrown;
+    font-size: 150%;
+    padding: 5px 0;
+}
+.navbar-link .main-link:link, .navbar-link .main-link:visited {
+    border-bottom: 2px saddlebrown solid; 
+}
+/*----------------------------------------------------------------------------*/
+/* section-gym */
+/*----------------------------------------------------------------------------*/
+.show-case-gym header {
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.show-case-gym header h1 {
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+.show-case-gym  header h3::after {
+    margin: auto;
+    content: " ";  
+    display: flex;
+    background: saddlebrown;
+    height: 3px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* cardiovascular exercises */
+/*----------------------------------------------------------------------------*/
+.cardiovascular_exercises {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.cardiovascular_exercises ul {
+    list-style-type: square;
+    margin-left: 4%;
+}
+.cardiovascular_exercises h2 {
+    margin-bottom: 8px;
+}
+.cardiovascular-flex {
+    width: 100%;
+    margin: 0 2%;
+}
+
+.cardiovascular-left-container {
+    width: 100%;
+    margin-bottom: 10%;
+    margin-left: 0;
+    display: flex;
+    align-items: center;   
+}
+.image-left{
+    width: 94%;
+    margin: 6% 0 0 7%;
+    
+}
+.image-left img {
+    width: 100%;
+    height: 500px;
+    border: 2px #000 solid;
+    border-radius: 5px;
+    box-shadow:  2px 2px 20px #000;
+    
+}
+.cardiovascular-topic-left {
+    width: 90%;
+    margin: 5% 0 5% 7%;
+}
+.cardiovascular-right-container {
+    width: 100%;
+    margin: 2% 6% 10% 0;
+    display: flex;
+    align-items: center;
+     
+}
+.image-right{
+    width: 94%;
+    margin: 6% 0 0 7%;  
+}
+.image-right img {
+    width: 100%;
+    height: 500px;
+    border: 2px #000 solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #000;
+    
+}
+.cardiovascular-topic-right {
+    width: 90%;
+    margin: 5% 0 5% 17%;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Animation */
+/*----------------------------------------------------------------------------*/
+
+.animated-image-Swimming{
+    width: 100%;
+    height: 500px;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 0.5s all ease-in-out;
+}
+.animated-topic-Swimming {
+    width: 90%;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 0.5s all ease-in-out;
+}
+
+.animated-image-Running{
+    width: 100%;
+    height: 500px;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 0.5s all ease-in-out;
+}
+.animated-topic-Running {
+    width: 90%;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 0.5s all ease-in-out;
+}
+
+.animated-image-Jump-rope{
+    width: 100%;
+    height: 500px;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 0.5s all ease-in-out;
+}
+.animated-topic-Jump-rope{
+    width: 90%;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 0.5s all ease-in-out;
+}
+
+.animated-image-Cycling{
+    width: 100%;
+    height: 500px;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 0.5s all ease-in-out;
+}
+.animated-topic-Cycling{
+    width: 90%;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 0.5s all ease-in-out;
+}
+
+.FadeInlefts {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+.FadeInRights {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* footer */
+/*----------------------------------------------------------------------------*/
+
+.footer-main{
+    background:  rgb(34, 32, 32);
+}
+.footer-nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin-left: 10%;
+    margin-right: 8%;
+
+}
+.footer-nav a {
+    color: #fff;
+}
+.ul-nav {
+    display: flex;
+}
+.ul-nav a {
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+}
+
+.ul-nav a:hover {
+    border-bottom: 1px #fff solid;
+}
+.icons-footer {
+    margin: 10px;
+    padding: 3px 10px;
+}
+.icons-footer:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+.fa-facebook-f { color: rgb(16, 78, 250);}
+.fa-instagram { color: rgb(153, 43, 226);}
+.fa-twitter { color: rgb(0, 153, 255);}
+.fa-youtube { color: red;}
+.footer-main p {
+    color: #fff;
+    text-align: center;
+    padding: 0 0 10px 0;   
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* Queries for small devices */
+/*----------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 850px ) {
+    
+    .show-case-gym header h1 {
+        font-size: 200%;
+    }
+    .show-case-gym header h3,h2 {
+        font-size: 120%;
+    }
+    .cardiovascular-flex {
+        margin: 5% 0 5% 8%;   
+    }
+    .cardiovascular-left-container{
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    .image-left,.cardiovascular-topic-left {
+        margin-left: 0; 
+    }
+    .image-left img{
+        object-fit: cover;
+    }
+    .cardiovascular-right-container{
+        flex-direction: column-reverse;  
+    }
+    .image-right,.cardiovascular-topic-right {
+        margin-left: 0;
+    }
+    .image-right img{
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 550px ) {
+    .image-left img{
+        object-fit: fill;
+    }
+    .image-right img{
+        object-fit: fill;
+    }
+    .cy-img img{
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 550px ) {
+    .show-case-gym header h1 {
+        font-size: 120%;
+    }
+    .show-case-gym header h3,h2 {
+        font-size: 100%;
+    }
+}

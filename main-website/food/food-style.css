@@ -1,0 +1,511 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* body */
+/*----------------------------------------------------------------------------*/
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: saddlebrown;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-gym a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-main a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------*/
+/* header */
+/*----------------------------------------------------------------------------*/
+.header-gym {
+  background: #000;
+  height: 70%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.navbar-link a {
+  -webkit-transition: color 0.5s, border-bottom 0.1s;
+  transition: color 0.5s, border-bottom 0.1s;
+}
+
+.navbar-link a:active, .navbar-link a:hover {
+  color: saddlebrown;
+  border-bottom: 1px #fff solid;
+}
+
+.logo {
+  font-family: 'Zilla Slab', serif;
+  color: #fff;
+}
+
+.logo a:hover {
+  color: #fff;
+}
+
+.logo .fa-heartbeat {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.logo .fa-heartbeat:hover {
+  color: red;
+}
+
+.logo a {
+  text-shadow: 5px 5px 10px saddlebrown;
+  font-size: 150%;
+  padding: 5px 0;
+}
+
+.navbar-link .main-link:link, .navbar-link .main-link:visited {
+  border-bottom: 2px saddlebrown solid;
+}
+
+/*----------------------------------------------------------------------------*/
+/* section-food */
+/*----------------------------------------------------------------------------*/
+.show-case-gym header {
+  margin-top: 50px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.show-case-gym header h1 {
+  font-size: 250%;
+  margin-bottom: 10px;
+}
+
+.show-case-gym header h3::after {
+  margin: auto;
+  content: " ";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: saddlebrown;
+  height: 3px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* section-food */
+/*----------------------------------------------------------------------------*/
+.calc-section-container {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-calc-section {
+  margin: 0 10px;
+}
+
+.form-calc {
+  padding: 2%;
+  margin-left: 10%;
+}
+
+.label-align, .form-calc-reuslt {
+  margin: 2%;
+  font-size: 120%;
+  width: 100%;
+}
+
+#Age, #Weight, #Height {
+  width: 50px;
+  height: 28px;
+}
+
+.label-align input, select {
+  margin-left: 0.5%;
+  margin-bottom: 20px;
+}
+
+select {
+  height: 28px;
+}
+
+.calculate-btn {
+  margin-top: 5%;
+}
+
+.brown-btn {
+  padding: 8px 16px;
+  margin: 10px 0;
+  background: saddlebrown;
+  opacity: 0.7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 120%;
+  -webkit-transition: color 0.5s , background 0.5s;
+  transition: color 0.5s , background 0.5s;
+}
+
+.brown-btn:hover {
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.calc-section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flex-item-calc-with {
+  width: 400px;
+}
+
+.form-calc-reuslt label {
+  display: block;
+}
+
+.form-calc-reuslt span {
+  color: rgb(92, 49, 18);
+  margin-left: 1%;
+}
+
+#Selected-PML {
+  margin-bottom: 2%;
+  width: 200px;
+}
+
+.brown-line-calc {
+  margin: auto;
+  content: " ";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgb(92, 49, 18);
+  height: 3px;
+  width: 50px;
+  margin: 10px 0;
+  -webkit-box-shadow: 0 0 2px #000;
+          box-shadow: 0 0 2px #000;
+}
+
+/*----------------------------------------------------------------------------*/
+/* grid-food-section */
+/*----------------------------------------------------------------------------*/
+.grid-food-section {
+  width: 100%;
+}
+
+.make-your-won-diet h2 {
+  margin: 80px 0 60px 0;
+  text-align: center;
+}
+
+.grid-food-container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 40px;
+  -ms-grid-columns: 0.3fr 0.3fr 0.3fr;
+      grid-template-columns: 0.3fr 0.3fr 0.3fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.grid-food-item {
+  height: 430px;
+  width: 100%;
+  color: #000;
+  border: 2px rgb(92, 49, 18) solid;
+  -webkit-box-shadow: 1px 1px 5px #000;
+          box-shadow: 1px 1px 5px #000;
+}
+
+.grid-food-item h3 {
+  margin: 10px 0 16px 0;
+}
+
+.ul-square-style {
+  list-style-type: circle;
+  margin-top: 4px;
+  margin-left: 8%;
+}
+
+.grid-food-item {
+  padding: 20px;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  -webkit-box-shadow: 1px 1px 5px #000;
+          box-shadow: 1px 1px 5px #000;
+}
+
+.grid-food-item img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.text-over-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+}
+
+.text-over-image:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+/*----------------------------------------------------------------------------*/
+/* footer */
+/*----------------------------------------------------------------------------*/
+.footer-main {
+  background: #000;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 20px;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+
+.footer-nav a {
+  color: #fff;
+}
+
+.ul-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ul-nav a {
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+.ul-nav a:hover {
+  border-bottom: 1px #fff solid;
+}
+
+.icons-footer {
+  margin: 10px;
+  padding: 3px 10px;
+}
+
+.icons-footer:hover {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+
+.fa-facebook-f { color: rgb(16, 78, 250);}
+.fa-instagram { color: rgb(153, 43, 226);}
+.fa-twitter { color: rgb(0, 153, 255);}
+.fa-youtube { color: red;}
+.footer-main p {
+    color: #fff;
+    text-align: center;
+    padding: 0 0 10px 0;   
+}
+
+/*----------------------------------------------------------------------------*/
+/* Queries for small devices */
+/*----------------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  .grid-food-container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 40px;
+    -ms-grid-columns: 0.4fr 0.4fr;
+        grid-template-columns: 0.4fr 0.4fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .show-case-gym header {
+    margin-top: 50px;
+    padding: 30px;
+  }
+  .show-case-gym header h1 {
+    font-size: 200%;
+  }
+  .flex-item-calc-with {
+    width: 300px;
+  }
+  .grid-food-container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 40px;
+    -ms-grid-columns: 0.3fr 0.3fr;
+        grid-template-columns: 0.3fr 0.3fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+  .grid-food-container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 40px;
+    -ms-grid-columns: 0.8fr;
+        grid-template-columns: 0.8fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .calc-section-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flex-calc-section {
+    margin-top: 5%;
+  }
+  .flex-item-calc, .brown-line-calc {
+    margin-left: 10%;
+  }
+  .Body-Weight {
+    margin-left: 12%;
+  }
+  .label-align, .form-calc-reuslt {
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .show-case-gym header h1, h3, h2 {
+    font-size: 120%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
